@@ -73,9 +73,8 @@ console.log(allCaps);
 // The large shirts won't be available for the event due to an ordering issue.  Get a list of runners with large sized shirts so they can choose a different size. Return an array named largeShirts that contains information about the runners that have a shirt size of L and log the result
 let largeShirts = [];
 
-runners.filter(function(runner)
- {let runner = 
-     if (runner.shirt_size === 'L') {largeShirts.push(runner)}});
+// runners.filter(function(runner) =>{
+//      if (runner.shirt_size === 'L') {largeShirts.push(runner)}});
 
 console.log(largeShirts);
 
